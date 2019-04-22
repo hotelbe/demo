@@ -16,5 +16,10 @@ public class HelloTest {
         System.out.println("testing for the git operation");
 
         System.out.println("hahahahahahaha");
+
+        for (int i = 0; i <100 ; i++) {
+            System.out.println(i);
+
+        }
     }
 }
