@@ -14,7 +14,7 @@ public class HelloTest {
         System.out.println("master branch add some codes");
         System.out.println("update the version number");
         System.out.println("testing for the git operation");
-
+        System.out.println("newly add lines");
         System.out.println("hahahahahahaha");
 
         for (int i = 0; i <100 ; i++) {
