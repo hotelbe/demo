@@ -10,6 +10,7 @@ public class HelloTest {
 
 
     public static void main(String[] args) {
-        System.out.println("hello world");
+        System.out.println("this is a test file");
+        System.out.println("testing for the git operation");
     }
 }
