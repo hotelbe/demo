@@ -1,5 +1,8 @@
 package com.example.demo;
 
+import java.util.ArrayList;
+import java.util.List;
+
 /**
  * @project: demo
  * @auther: shiwei
@@ -8,8 +11,16 @@ package com.example.demo;
  */
 public class HelloWorld {
     public static void main(String[] args) {
-        for (int i = 0; i < 100; i++) {
-            System.out.println("hello");
+        List list = new ArrayList<String>();
+        list.add("a");
+        list.add("b");
+        list.add("c");
+        list.add("d");
+        list.add("e");
+
+        for (int i = 0; i < list.size(); i++) {
+            System.out.println("i: " + list.get(i));
         }
+
     }
 }
