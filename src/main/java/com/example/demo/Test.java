@@ -8,6 +8,10 @@ package com.example.demo;
  */
 public class Test {
     public static void main(String[] args) {
-        System.out.println("hello");
+        //System.out.println("hello");
+        String[] nnn = new String[]{"xin", "zhong", "guo"};
+        for (String s : nnn) {
+            System.out.println(s);
+        }
     }
 }
